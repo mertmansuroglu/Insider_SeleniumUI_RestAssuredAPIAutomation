@@ -1,0 +1,4186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-07T14:52:15.973Z",
+        "line": 12,
+        "name": "I should be able navigate to insider page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-navigate-to-insider-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1258000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2106978000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21297452000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015532000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 227441000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3196287000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T14:52:45.865Z",
+        "line": 13,
+        "name": "I should be able navigate to insider page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-navigate-to-insider-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 98000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3254674000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42650311000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3006982000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109767000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3701943000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T14:53:38.603Z",
+        "line": 26,
+        "name": "I should be able landed to Career page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-landed-to-career-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 65000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1973939000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26101286000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015421000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 186822000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38131931000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3006503000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3221592000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T14:54:54.245Z",
+        "line": 27,
+        "name": "I should be able landed to Career page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-landed-to-career-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 86000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2831841000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I open the browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56567941000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3005730000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99923000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7727143000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3005517000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3706563000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T14:56:11.196Z",
+        "line": 45,
+        "name": "I should be able to redirected to Culture section inside Career Page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-to-redirected-to-culture-section-inside-career-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 84000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1792666000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40619170000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3009731000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185846000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12409542000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015397000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2153648000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I open culture section",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCultureSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3014578000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/#culture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/#culture\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3019918000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I check current scroll position after scrolling to culture section 618",
+            "match": {
+              "arguments": [
+                {
+                  "val": "618",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckCurrentScrollPositionAfterScrollingToCultureSection(java.lang.Long)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19782000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I check if the culture blocks appeared",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheCultureBlocksAppeared()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3208439000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T14:57:23.651Z",
+        "line": 46,
+        "name": "I should be able to redirected to Culture section inside Career Page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-to-redirected-to-culture-section-inside-career-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 103000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2821509000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I open the browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30612158000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3014372000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102251000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9336088000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3012045000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2280368000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I open culture section",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCultureSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3011700000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/#culture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/#culture\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3019512000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I check current scroll position after scrolling to culture section 649",
+            "match": {
+              "arguments": [
+                {
+                  "val": "649",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckCurrentScrollPositionAfterScrollingToCultureSection(java.lang.Long)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10651000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I check if the culture blocks appeared",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheCultureBlocksAppeared()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3730785000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T14:58:24.609Z",
+        "line": 64,
+        "name": "I should be able to redirected to Locations section inside Career Page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-to-redirected-to-locations-section-inside-career-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 88000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1778493000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51719760000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3011815000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4933809000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23761682000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015344000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2163971000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I open location section",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenLocationSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3017485000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/#locations\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/#locations\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3014540000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I check current scroll position after scrolling to culture section 1716",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1716",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckCurrentScrollPositionAfterScrollingToCultureSection(java.lang.Long)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38855000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I check if the location blocks appeared",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheLocationBlocksAppeared()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3228048000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:00:04.298Z",
+        "line": 65,
+        "name": "I should be able to redirected to Locations section inside Career Page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-to-redirected-to-locations-section-inside-career-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 140000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3365853000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I open the browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14878245000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3016099000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101068000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24594135000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3008596000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2748918000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I open location section",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenLocationSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3004555000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/#locations\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/#locations\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3013825000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I check current scroll position after scrolling to culture section 1747",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1747",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckCurrentScrollPositionAfterScrollingToCultureSection(java.lang.Long)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26622000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I check if the location blocks appeared",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheLocationBlocksAppeared()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3649397000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:01:05.711Z",
+        "line": 82,
+        "name": "I should be able to redirected to Teams section inside Career Page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-to-redirected-to-teams-section-inside-career-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 67000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2074847000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35032477000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3006085000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 202280000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6752029000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3014389000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2161379000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I open Teams section",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenTeamsSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3008078000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/#teams\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/#teams\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3018472000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I check current scroll position after scrolling to culture section 2538",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2538",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckCurrentScrollPositionAfterScrollingToCultureSection(java.lang.Long)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12752000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I check if the Teams blocks appeared",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheTeamsBlocksAppeared()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3232158000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:02:07.231Z",
+        "line": 83,
+        "name": "I should be able to redirected to Teams section inside Career Page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-to-redirected-to-teams-section-inside-career-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 151000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3131647000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I open the browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40491691000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3009608000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101815000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13746447000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3009275000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2282596000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I open Teams section",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenTeamsSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3009964000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/#teams\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/#teams\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3018799000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I check current scroll position after scrolling to culture section 2570",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2570",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckCurrentScrollPositionAfterScrollingToCultureSection(java.lang.Long)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8139000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I check if the Teams blocks appeared",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheTeamsBlocksAppeared()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3701484000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:03:22.748Z",
+        "line": 100,
+        "name": "I should be able to redirected to Jobs section inside Career Page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-to-redirected-to-jobs-section-inside-career-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 100000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1768035000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46677867000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015201000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184863000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5691650000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3007986000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2149222000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I open Jobs section",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenJobsSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3004300000,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/#jobs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/#jobs\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3017368000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I check current scroll position after scrolling to culture section 4650",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4650",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckCurrentScrollPositionAfterScrollingToCultureSection(java.lang.Long)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13121000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I check if the Jobs blocks appeared",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheJobsBlocksAppeared()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3223346000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:04:34.505Z",
+        "line": 101,
+        "name": "I should be able to redirected to Jobs section inside Career Page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-to-redirected-to-jobs-section-inside-career-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 108000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2912460000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I open the browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10923879000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3005780000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103532000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10162871000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3008874000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2282530000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I open Jobs section",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenJobsSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3008091000,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/#jobs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/#jobs\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3018631000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I check current scroll position after scrolling to culture section 4680",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4680",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckCurrentScrollPositionAfterScrollingToCultureSection(java.lang.Long)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7520000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I check if the Jobs blocks appeared",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheJobsBlocksAppeared()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3700793000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:05:16.645Z",
+        "line": 118,
+        "name": "I should be able to redirected to Life section inside Career Page",
+        "description": "",
+        "id": "insider-test-cases;i-should-be-able-to-redirected-to-life-section-inside-career-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 87000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1789097000,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19583801000,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3008944000,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 182196000,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16745939000,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015543000,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2156403000,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "I open Life section",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenLifeSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3011866000,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/career/#life-at-insider\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/career/#life-at-insider\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3020662000,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "I check current scroll position after scrolling to culture section 5990",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5990",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckCurrentScrollPositionAfterScrollingToCultureSection(java.lang.Long)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33511000,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I check if the Life blocks appeared",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheLifeBlocksAppeared()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3215680000,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:06:12.413Z",
+        "line": 134,
+        "name": "Check presence of job-list by Location - Istanbul, Turkey and department - Quality Assurance,",
+        "description": "",
+        "id": "insider-test-cases;check-presence-of-job-list-by-location---istanbul--turkey-and-department---quality-assurance-;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 66000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1829189000,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197458994000,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3012187000,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 705188000,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11320337000,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4020235000,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "I scroll to Jobs page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iScrollToJobsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3127072000,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "I filter jobs by Location - Istanbul, Turkey",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByLocationIstanbulTurkey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3098334000,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "I filter jobs by department - Quality Assurance",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByDepartmentQualityAssurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45328000,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "I should see the search result",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeTheSearchResult()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3213948000,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:10:00.247Z",
+        "line": 135,
+        "name": "Check presence of job-list by Location - Istanbul, Turkey and department - Quality Assurance,",
+        "description": "",
+        "id": "insider-test-cases;check-presence-of-job-list-by-location---istanbul--turkey-and-department---quality-assurance-;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 104000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2898706000,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "I open the browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29552762000,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015195000,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92046000,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10871786000,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4088597000,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "I scroll to Jobs page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iScrollToJobsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3283790000,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "I filter jobs by Location - Istanbul, Turkey",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByLocationIstanbulTurkey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3276518000,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "I filter jobs by department - Quality Assurance",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByDepartmentQualityAssurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30931000,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "I should see the search result",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeTheSearchResult()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3717614000,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:11:01.079Z",
+        "line": 153,
+        "name": "Check that all jobs’ Position contains “Quality Assurance”, Department contains “Quality Assurance”, Location contains “Istanbul, Turkey”",
+        "description": "",
+        "id": "insider-test-cases;check-that-all-jobs’-position-contains-“quality-assurance”--department-contains-“quality-assurance”--location-contains-“istanbul--turkey”;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 623000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1823182000,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40977306000,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3012961000,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168794000,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15771784000,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4022876000,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "I scroll to Jobs page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iScrollToJobsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3110608000,
+              "status": "passed"
+            },
+            "line": 145,
+            "name": "I filter jobs by Location - Istanbul, Turkey",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByLocationIstanbulTurkey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3096775000,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "I filter jobs by department - Quality Assurance",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByDepartmentQualityAssurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132055000,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "I should see that all jobs position contains contains “Quality Assurance”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllJobsPositionContainsContainsQualityAssurance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4132974000,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "I should see that all department contains contains “Quality Assurance”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllDepartmentContainsContainsQualityAssurance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127808000,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "I should see that all location contains contains “Istanbul, Turkey”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllLocationContainsContainsIstanbulTurkey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3179833000,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:12:20.640Z",
+        "line": 154,
+        "name": "Check that all jobs’ Position contains “Quality Assurance”, Department contains “Quality Assurance”, Location contains “Istanbul, Turkey”",
+        "description": "",
+        "id": "insider-test-cases;check-that-all-jobs’-position-contains-“quality-assurance”--department-contains-“quality-assurance”--location-contains-“istanbul--turkey”;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 112000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2268758000,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "I open the browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106673529000,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3022622000,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91361000,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20027999000,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4022898000,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "I scroll to Jobs page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iScrollToJobsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3275764000,
+              "status": "passed"
+            },
+            "line": 145,
+            "name": "I filter jobs by Location - Istanbul, Turkey",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByLocationIstanbulTurkey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3265657000,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "I filter jobs by department - Quality Assurance",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByDepartmentQualityAssurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81811000,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "I should see that all jobs position contains contains “Quality Assurance”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllJobsPositionContainsContainsQualityAssurance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4075821000,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "I should see that all department contains contains “Quality Assurance”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllDepartmentContainsContainsQualityAssurance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65979000,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "I should see that all location contains contains “Istanbul, Turkey”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllLocationContainsContainsIstanbulTurkey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3554020000,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:14:51.071Z",
+        "line": 175,
+        "name": "Select one of the positions, check that correct position page is opened, presence of job description, requirements and click “Apply for this job” button",
+        "description": "",
+        "id": "insider-test-cases;select-one-of-the-positions--check-that-correct-position-page-is-opened--presence-of-job-description--requirements-and-click-“apply-for-this-job”-button;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1597318000,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "I open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122047816000,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3006621000,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3350653000,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30137326000,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4043368000,
+              "status": "passed"
+            },
+            "line": 163,
+            "name": "I scroll to Jobs page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iScrollToJobsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3135144000,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "I filter jobs by Location - Istanbul, Turkey",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByLocationIstanbulTurkey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3101918000,
+              "status": "passed"
+            },
+            "line": 165,
+            "name": "I filter jobs by department - Quality Assurance",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByDepartmentQualityAssurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150238000,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "I should see that all jobs position contains contains “Quality Assurance”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllJobsPositionContainsContainsQualityAssurance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4146785000,
+              "status": "passed"
+            },
+            "line": 167,
+            "name": "I should see that all department contains contains “Quality Assurance”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllDepartmentContainsContainsQualityAssurance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136421000,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "I should see that all location contains contains “Istanbul, Turkey”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllLocationContainsContainsIstanbulTurkey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6618802000,
+              "status": "passed"
+            },
+            "line": 169,
+            "name": "I should see that presence of job description, requirements and Apply for this job button is valid for the opened job position",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatPresenceOfJobDescriptionRequirementsAndApplyForThisJobButtonIsValidForTheOpenedJobPosition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9183311000,
+              "status": "passed"
+            },
+            "line": 170,
+            "name": "I click Apply for this job button",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iClickApplyForThisJobButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25620000,
+              "status": "passed"
+            },
+            "line": 171,
+            "name": "I check it redirects us to Application form page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckItRedirectsUsToApplicationFormPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3254133000,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:18:05.010Z",
+        "line": 176,
+        "name": "Select one of the positions, check that correct position page is opened, presence of job description, requirements and click “Apply for this job” button",
+        "description": "",
+        "id": "insider-test-cases;select-one-of-the-positions--check-that-correct-position-page-is-opened--presence-of-job-description--requirements-and-click-“apply-for-this-job”-button;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 62000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3115362000,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "I open the browser \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iOpenTheChromeBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37873884000,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "I  visit insider web page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iVisitInsiderWebPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3005529000,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "I check if the page is correctly opened \"https://useinsider.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://useinsider.com/\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitions.InsiderTest.iCheckIfThePageIsCorrectlyOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93417000,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "I  should be able to handle the frame",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldBeAbleToHandleTheFrame()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20605290000,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "I open career page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iOpenCareerPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4019264000,
+              "status": "passed"
+            },
+            "line": 163,
+            "name": "I scroll to Jobs page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iScrollToJobsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15889617000,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "I filter jobs by Location - Istanbul, Turkey",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByLocationIstanbulTurkey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3253067000,
+              "status": "passed"
+            },
+            "line": 165,
+            "name": "I filter jobs by department - Quality Assurance",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iFilterJobsByDepartmentQualityAssurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189758000,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "I should see that all jobs position contains contains “Quality Assurance”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllJobsPositionContainsContainsQualityAssurance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4075710000,
+              "status": "passed"
+            },
+            "line": 167,
+            "name": "I should see that all department contains contains “Quality Assurance”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllDepartmentContainsContainsQualityAssurance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73743000,
+              "status": "passed"
+            },
+            "line": 168,
+            "name": "I should see that all location contains contains “Istanbul, Turkey”",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatAllLocationContainsContainsIstanbulTurkey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10498463000,
+              "status": "passed"
+            },
+            "line": 169,
+            "name": "I should see that presence of job description, requirements and Apply for this job button is valid for the opened job position",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iShouldSeeThatPresenceOfJobDescriptionRequirementsAndApplyForThisJobButtonIsValidForTheOpenedJobPosition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13973329000,
+              "status": "passed"
+            },
+            "line": 170,
+            "name": "I click Apply for this job button",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iClickApplyForThisJobButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24549000,
+              "status": "passed"
+            },
+            "line": 171,
+            "name": "I check it redirects us to Application form page",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckItRedirectsUsToApplicationFormPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3727038000,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "I check if the browser has been closed",
+            "match": {
+              "location": "StepDefinitions.InsiderTest.iCheckIfTheBrowserHasBeenClosed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Insider"
+          }
+        ]
+      }
+    ],
+    "name": "Insider Test Cases",
+    "description": "",
+    "id": "insider-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/AllTestCases.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-07T15:20:05.432Z",
+        "line": 4,
+        "name": "Verify if the new pet is being successfully updated",
+        "description": "",
+        "id": "swagger-pet-test-cases;verify-if-the-new-pet-is-being-successfully-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 560815000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add new pet payload \"Fino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fino\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.addNewPetPayload(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1752379000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls add new pet api by post http request",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.userCallsAddNewPetApiByPostHttpRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 406801000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status in response body is \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"available\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.statusInResponseBodyIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10747000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "name in response body is \"Fino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fino\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.nameInResponseBodyIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:20:08.170Z",
+        "line": 11,
+        "name": "Verify if I can update the existing pet with new dog name",
+        "description": "",
+        "id": "swagger-pet-test-cases;verify-if-i-can-update-the-existing-pet-with-new-dog-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 646000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I put updated payload \"NewUpdatedDog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NewUpdatedDog\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.iPutUpdatedPayload(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 854073000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user calls update api by put http request",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.userCallsUpdateApiByPutHttpRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10096000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Status in response body is \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"available\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.statusInResponseBodyIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8702000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "name in response body is \"NewUpdatedDog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NewUpdatedDog\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.nameInResponseBodyIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:20:09.046Z",
+        "line": 27,
+        "name": "Verify if I can log-in and log-out to the system",
+        "description": "",
+        "id": "swagger-pet-test-cases;verify-if-i-can-log-in-and-log-out-to-the-system;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3869000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "add requirements as parameters \"test\" \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"abc123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.addRequirementsAsParameters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1134110000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user calls login api by get http request",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.userCallsLoginApiByGetHttpRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9242000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "message should include \"logged in user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"logged in user\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.messageShouldInclude(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 915772000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I log out from the system",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iLogOutFromTheSystem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:20:11.112Z",
+        "line": 35,
+        "name": "Verify that I should not be able to log in to the system with invalid credential",
+        "description": "",
+        "id": "swagger-pet-test-cases;verify-that-i-should-not-be-able-to-log-in-to-the-system-with-invalid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 926000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "add requirements as parameters \"invalid\" \"invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"invalid\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.addRequirementsAsParameters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1089067000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user calls login api by get http request",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.userCallsLoginApiByGetHttpRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:89)\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\n\tat org.junit.Assert.assertEquals(Assert.java:647)\n\tat org.junit.Assert.assertEquals(Assert.java:633)\n\tat StepDefinitions.SwaggerPet.apiCallShouldBeWithErrorCode(SwaggerPet.java:123)\n\tat ✽.Api call should be with  400 error code(file:///Users/mertm/IdeaProjects/TestAutomationInsider/src/test/java/Features/SwaggerPet.feature:32)\n",
+              "duration": 1050000,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "Api call should be with  400 error code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallShouldBeWithErrorCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:20:12.213Z",
+        "line": 37,
+        "name": "Verify if I can successfully delete the new pet",
+        "description": "",
+        "id": "swagger-pet-test-cases;verify-if-i-can-successfully-delete-the-new-pet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 503000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Add new pet payload \"Kiraz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kiraz\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.addNewPetPayload(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1497358000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user calls add new pet api by post http request",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.userCallsAddNewPetApiByPostHttpRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 363287000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I check pet id extracted from the newly added pet",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iCheckPetIdExtractedFromTheNewlyAddedPet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 816450000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I delete the added pet",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iDeleteTheAddedPet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:20:14.894Z",
+        "line": 55,
+        "name": "Verify if I can successfully place an order for a pet",
+        "description": "",
+        "id": "swagger-pet-test-cases;verify-if-i-can-successfully-place-an-order-for-a-pet;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 406000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Add new pet payload \"Barut\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Barut\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.addNewPetPayload(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 814859000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user calls add new pet api by post http request",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.userCallsAddNewPetApiByPostHttpRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7558000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I check pet id extracted from the newly added pet",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iCheckPetIdExtractedFromTheNewlyAddedPet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 844376000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I place an order for a pet",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iPlaceAnOrderForAPet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34172000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "complete in response body is \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.completeInResponseBodyIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:20:16.599Z",
+        "line": 57,
+        "name": "Verify that User should not access to pet order which has been deleted",
+        "description": "",
+        "id": "swagger-pet-test-cases;verify-that-user-should-not-access-to-pet-order-which-has-been-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Add new pet payload \"Bulut\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bulut\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.addNewPetPayload(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 776752000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user calls add new pet api by post http request",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.userCallsAddNewPetApiByPostHttpRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15147000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I check pet id extracted from the newly added pet",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iCheckPetIdExtractedFromTheNewlyAddedPet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 862674000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I place an order for a pet",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iPlaceAnOrderForAPet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8070000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I check order id extracted from the placed order",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iCheckOrderIdExtractedFromThePlacedOrder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000753000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I delete the placed order",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iDeleteThePlacedOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7025000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I check to find purchase order which is deleted in the previous step",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iCheckToFindPurchaseOrderWhichIsDeletedInThePreviousStep()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-07T15:20:19.272Z",
+        "line": 70,
+        "name": "Verify that User should be able to access to placed order",
+        "description": "",
+        "id": "swagger-pet-test-cases;verify-that-user-should-be-able-to-access-to-placed-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 393000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Add new pet payload \"Gunes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gunes\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.addNewPetPayload(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 726466000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user calls add new pet api by post http request",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.userCallsAddNewPetApiByPostHttpRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9208000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I check pet id extracted from the newly added pet",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iCheckPetIdExtractedFromTheNewlyAddedPet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 798991000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I place an order for a pet",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iPlaceAnOrderForAPet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6711000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I check order id extracted from the placed order",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iCheckOrderIdExtractedFromThePlacedOrder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1067938000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I try to find the purchase order by Id",
+            "match": {
+              "location": "StepDefinitions.SwaggerPet.iTryToFindThePurchaseOrderById()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Api call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.SwaggerPet.apiCallIsSuccessWithStatusCode(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Swagger Pet Test Cases",
+    "description": "",
+    "id": "swagger-pet-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/SwaggerPet.feature",
+    "tags": []
+  }
+]
