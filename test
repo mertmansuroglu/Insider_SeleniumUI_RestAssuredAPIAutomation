@@ -1,0 +1,1 @@
+keytool -importcert -trustcacerts -alias mailSlurp -file C:\dev\mailslurp.der -keystore "%JAVA_HOME%"/lib/security/cacerts  
