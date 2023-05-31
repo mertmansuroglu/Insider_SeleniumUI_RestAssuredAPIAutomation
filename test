@@ -1,1 +1,4 @@
 keytool -importcert -trustcacerts -alias mailSlurp -file C:\dev\mailslurp.der -keystore "%JAVA_HOME%"/lib/security/cacerts  
+
+
+https://nasdaq.zoom.us/j/6772533501?pwd=RXZOYWFTZERGd2F3S3VNOUlJME9vUT09
