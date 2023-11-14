@@ -1,0 +1,151 @@
+{
+  "Committees": [
+    "NomGov",
+    "Audit",
+    "Compensation"
+  ],
+  "Groups": [
+    "Officers",
+    "5% Shareholder"
+  ],
+  "profile_properties_custom": [],
+  "users": [
+    {
+      "Email": "Pintu.Behera@nasdaq.com",
+      "Username": "dawid@aimh",
+      "sms_phone": "",
+      "Committees": [
+        "Audit",
+        "Compensation",
+        "NomGov"
+      ],
+      "Groups": [
+        "5% Shareholder"
+      ],
+      "Roles": [
+        "System Administrator",
+        "Respondent"
+      ],
+      "profile_properties": [
+        {
+          "property_name": "FirstName",
+          "value": "dawid"
+        },
+        {
+          "property_name": "MiddleName",
+          "value": "Test"
+        },
+        {
+          "property_name": "LastName",
+          "value": "malan"
+        },
+        {
+          "property_name": "FullName",
+          "value": "DAWID MALAN"
+        },
+        {
+          "property_name": "FamiliarName",
+          "value": "NASDAQ"
+        },
+        {
+          "property_name": "Capacity",
+          "value": "Shareholder"
+        },
+        {
+          "property_name": "Title",
+          "value": "MIGRATION"
+        },
+        {
+          "property_name": "Age",
+          "value": "55"
+        },
+        {
+          "property_name": "Address",
+          "value": "UK"
+        },
+        {
+          "property_name": "DOB",
+          "value": "12/12/2077"
+        },
+        {
+          "property_name": "PhoneNumber",
+          "value": "+83520009"
+        },
+        {
+          "property_name": "Biography",
+          "value": "USA"
+        }
+      ],
+      "authorized_recipients": "",
+      "send_registration_email": false
+    },
+    {
+      "Email": "Mert.Mansuroglu@Nasdaq.com",
+      "Username": "mert.mansur@aimh",
+      "sms_phone": "",
+      "Committees": [
+        "Audit",
+        "Compensation",
+        "NomGov"
+      ],
+      "Groups": [
+        "5% Shareholder"
+      ],
+      "Roles": [
+        "Respondent"
+      ],
+      "profile_properties": [
+        {
+          "property_name": "FirstName",
+          "value": "mert"
+        },
+        {
+          "property_name": "MiddleName",
+          "value": "Test321"
+        },
+        {
+          "property_name": "LastName",
+          "value": "mansur"
+        },
+        {
+          "property_name": "FullName",
+          "value": "mert mansu"
+        },
+        {
+          "property_name": "FamiliarName",
+          "value": "NasdaqFamilar"
+        },
+        {
+          "property_name": "Capacity",
+          "value": "Shareholder"
+        },
+        {
+          "property_name": "Title",
+          "value": "Migeartion"
+        },
+        {
+          "property_name": "Age",
+          "value": "66"
+        },
+        {
+          "property_name": "Address",
+          "value": "Canada"
+        },
+        {
+          "property_name": "DOB",
+          "value": "23/12/2088"
+        },
+        {
+          "property_name": "PhoneNumber",
+          "value": "+63657824935740"
+        },
+        {
+          "property_name": "Biography",
+          "value": "USAA"
+        }
+      ],
+      "authorized_recipients": "test345@yahoo.in;testdata@gmail.com",
+      "send_registration_email": false
+    }
+  ]
+}

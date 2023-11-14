@@ -1,0 +1,1803 @@
+{
+  "version": "1.0",
+  "export_date": "2023-11-13T14:02:12+00:00",
+  "api_url": "https://spindev3321.corpgov.tech",
+  "created_by": "admin",
+  "created_date": "2023-10-30T07:29:44.24",
+  "external_id": "d41bc3f6-6dc7-4148-910f-51be22fe49d1",
+  "name": "13thNOV Migration - For Automation",
+  "type": "Directors' and Officers' Questionnaire (DOQ)",
+  "google_analytics_tracking_id": "",
+  "allow_edit_while_active": true,
+  "respondent_settings": {
+    "allow_back_button": true,
+    "allow_response_reset": false,
+    "allow_complete_response_edit": false,
+    "allow_response_resume": true,
+    "allow_response_save": true,
+    "anonymized": false,
+    "security_type": "Public",
+    "survey_password": "",
+    "make_questions_required": true
+  },
+  "response_limits": {
+    "activation_start_date": null,
+    "activation_end_date": "2023-12-19T01:57:37",
+    "per_respondent_response_limit": null
+  },
+  "appearance": {
+    "show_survey_title": false,
+    "show_page_numbers": false,
+    "show_item_numbers": false,
+    "enable_dynamic_page_numbers": false,
+    "enable_dynamic_item_numbers": false,
+    "is_item_order_randomized": false,
+    "show_validation_error_alert": false,
+    "show_asterisks": true,
+    "show_progress_bar": false,
+    "progress_bar_orientation": 0,
+    "show_compliance_link": false,
+    "allow_accessibility_options": false,
+    "allow_edit_while_active": true
+  },
+  "language_settings": {
+    "default_language": "en-US",
+    "supported_languages": [
+      "en-US"
+    ],
+    "language_source_token": "",
+    "allow_response_language_change": false
+  },
+  "pages": [
+    {
+      "id": 1712,
+      "title": "Page 0",
+      "position": 1,
+      "page_type": "HiddenItems",
+      "branching_rules": [],
+      "items": []
+    },
+    {
+      "id": 1713,
+      "title": "Page 1",
+      "position": 2,
+      "page_type": "ContentPage",
+      "branching_rules": [],
+      "items": [
+        {
+          "id": 6554,
+          "import_id": "6554",
+          "enabled": true,
+          "position": 1,
+          "item_type": "Message",
+          "is_unlimited_columns": false,
+          "is_unlimited_rows": false,
+          "is_required": false,
+          "is_soft_required": false,
+          "text": {
+            "en-US": "Display Item:<br /><br /><strong>Welcome to Questionnaire Section.<br /><br />@@FirstName<br />@@LastName<br />@@MiddleName<br />@@FullName<br />@@Age<br />@@DOB<br />@@Capacity<br /><br /></strong>"
+          },
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal"
+        }
+      ]
+    },
+    {
+      "id": 1714,
+      "title": "Page 2",
+      "position": 3,
+      "page_type": "ContentPage",
+      "branching_rules": [],
+      "items": [
+        {
+          "id": 6555,
+          "import_id": "6555",
+          "enabled": true,
+          "position": 1,
+          "is_required": true,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<em>How do you rate your College? <span id=\"ed41f409-e54f-434c-a535-e1176585a6b1\" class=\"exhibit-link\">UserExhibit</span><br /><br /><span id=\"46601a0e-60cf-4e9a-a684-3a0d7109f903\" class=\"exhibit-link\">general</span></em>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {},
+          "item_type": "RadioButtons",
+          "choices": [
+            {
+              "id": 7511,
+              "text": {
+                "en-US": "Good"
+              },
+              "alias": "",
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7512,
+              "text": {
+                "en-US": "Average"
+              },
+              "alias": "",
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7513,
+              "text": {
+                "en-US": "Best"
+              },
+              "alias": "",
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7514,
+              "text": {
+                "en-US": "All of the above"
+              },
+              "alias": "",
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            }
+          ],
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Vertical",
+          "show_number_labels": false
+        },
+        {
+          "id": 6556,
+          "import_id": "6556",
+          "enabled": true,
+          "position": 2,
+          "allow_none_of_above": false,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "Which Compulsory Subject have you taken? AND Conditions validation"
+          },
+          "subtext": {
+            "en-US": "select multiple option @@FirstName"
+          },
+          "default_text": {},
+          "item_type": "Checkboxes",
+          "choices": [
+            {
+              "id": 7515,
+              "text": {
+                "en-US": "Math"
+              },
+              "alias": "",
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7516,
+              "text": {
+                "en-US": "Biology"
+              },
+              "alias": "",
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7517,
+              "text": {
+                "en-US": "Science"
+              },
+              "alias": "",
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7518,
+              "text": {
+                "en-US": "History"
+              },
+              "alias": "",
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            }
+          ],
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Vertical",
+          "show_number_labels": false,
+          "include_condition": {
+            "expressions": [],
+            "groups": [
+              {
+                "id": 8978,
+                "expressions": [
+                  {
+                    "id": 8980,
+                    "left_operand": {
+                      "item_id": 6555,
+                      "operand_type": "SurveyItem"
+                    },
+                    "operator": "Answered"
+                  },
+                  {
+                    "id": 8981,
+                    "left_operand": {
+                      "profile_key": "Capacity",
+                      "operand_type": "ProfileProperty"
+                    },
+                    "right_operand": {
+                      "value": null,
+                      "operand_type": "String"
+                    },
+                    "operator": "IsNotNull"
+                  }
+                ],
+                "logical_operator": "AND"
+              }
+            ],
+            "logical_operator": "OR"
+          }
+        },
+        {
+          "id": 6557,
+          "import_id": "6557",
+          "enabled": true,
+          "position": 3,
+          "allow_none_of_above": false,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "Which Compulsory Subject have you taken?"
+          },
+          "subtext": {
+            "en-US": "select multiple option"
+          },
+          "default_text": {},
+          "item_type": "Checkboxes",
+          "choices": [
+            {
+              "id": 7519,
+              "text": {
+                "en-US": "Math"
+              },
+              "alias": "",
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7520,
+              "text": {
+                "en-US": "Biology"
+              },
+              "alias": "",
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7521,
+              "text": {
+                "en-US": "Science"
+              },
+              "alias": "",
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7522,
+              "text": {
+                "en-US": "History"
+              },
+              "alias": "",
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            }
+          ],
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Vertical",
+          "show_number_labels": false,
+          "include_condition": {
+            "expressions": [],
+            "groups": [
+              {
+                "id": 8982,
+                "expressions": [
+                  {
+                    "id": 8984,
+                    "left_operand": {
+                      "item_id": 6555,
+                      "operand_type": "SurveyItem"
+                    },
+                    "operator": "Answered"
+                  }
+                ],
+                "logical_operator": "AND"
+              },
+              {
+                "id": 8982,
+                "expressions": [
+                  {
+                    "id": 8986,
+                    "left_operand": {
+                      "profile_key": "DOB",
+                      "operand_type": "ProfileProperty"
+                    },
+                    "right_operand": {
+                      "value": null,
+                      "operand_type": "String"
+                    },
+                    "operator": "IsNotNull"
+                  }
+                ],
+                "logical_operator": "AND"
+              }
+            ],
+            "logical_operator": "OR"
+          }
+        },
+        {
+          "id": 6558,
+          "import_id": "6558",
+          "enabled": true,
+          "position": 4,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<strong>Upload Address Proof @@Title</strong>"
+          },
+          "subtext": {
+            "en-US": "file size max 2 mb"
+          },
+          "default_text": {},
+          "allowed_file_types": [
+            ".csv",
+            ".doc",
+            ".docx",
+            ".gif",
+            ".jpeg",
+            ".jpg",
+            ".pdf",
+            ".png",
+            ".ppt",
+            ".pptx",
+            ".txt",
+            ".xls",
+            ".xlsx"
+          ],
+          "item_type": "FileUpload",
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal"
+        },
+        {
+          "id": 6559,
+          "import_id": "6559",
+          "enabled": true,
+          "position": 5,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<strong>Course Complexity @@1link</strong>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {},
+          "start_text": {
+            "en-US": "Low"
+          },
+          "mid_text": {
+            "en-US": "Mid"
+          },
+          "end_text": {
+            "en-US": "High"
+          },
+          "other_text": {
+            "en-US": ""
+          },
+          "item_type": "RadioButtonScale",
+          "choices": [
+            {
+              "id": 7523,
+              "text": {
+                "en-US": "1"
+              },
+              "alias": "",
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "points": 1.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7524,
+              "text": {
+                "en-US": "2"
+              },
+              "alias": "",
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "points": 2.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7525,
+              "text": {
+                "en-US": "3"
+              },
+              "alias": "",
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "points": 3.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7526,
+              "text": {
+                "en-US": "4"
+              },
+              "alias": "",
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "points": 4.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7527,
+              "text": {
+                "en-US": "5"
+              },
+              "alias": "",
+              "position": 5,
+              "is_default": false,
+              "is_other": false,
+              "points": 5.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7528,
+              "text": {
+                "en-US": "6"
+              },
+              "alias": "",
+              "position": 6,
+              "is_default": false,
+              "is_other": false,
+              "points": 6.0,
+              "is_none_of_above": false,
+              "enabled": true
+            }
+          ],
+          "start_value": 1,
+          "end_value": 6,
+          "enable_not_applicable": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal"
+        },
+        {
+          "id": 6560,
+          "import_id": "6560",
+          "enabled": true,
+          "position": 6,
+          "is_required": true,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<em>Enter familiar name - PP</em>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {
+            "en-US": "@@FamiliarName"
+          },
+          "item_type": "SingleLineText",
+          "answer_format": "None",
+          "custom_format_id": "",
+          "max_length": null,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal"
+        },
+        {
+          "id": 6561,
+          "import_id": "6561",
+          "enabled": true,
+          "position": 7,
+          "is_required": true,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<p><strong>Describe about Your College - PP biography - <span id=\"214a3eb7-d07f-4eda-8c7f-ae7cd6240f19\" class=\"tiny-editor-tooltip\" contextmenu=\"\">Link2_Link2 Term</span></strong></p>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {
+            "en-US": "@@Biography"
+          },
+          "allow_html": true,
+          "min_length": null,
+          "max_length": null,
+          "item_type": "MultiLineText",
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal",
+          "columns": 80
+        },
+        {
+          "id": 6562,
+          "import_id": "6562",
+          "enabled": true,
+          "position": 8,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "Gender"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {},
+          "item_type": "DropdownList",
+          "choices": [
+            {
+              "id": 7529,
+              "text": {
+                "en-US": "Male"
+              },
+              "alias": "",
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7530,
+              "text": {
+                "en-US": "Female"
+              },
+              "alias": "",
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            }
+          ],
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal",
+          "show_number_labels": false
+        },
+        {
+          "id": 6563,
+          "import_id": "6563",
+          "enabled": true,
+          "position": 9,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<p>How do you rate your College? <span id=\"f6864a43-7b9a-4370-9ccf-721023b58017\" class=\"tiny-editor-tooltip\" contextmenu=\"\">Admin_test</span> --Condition Question</p>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {},
+          "item_type": "RadioButtons",
+          "choices": [
+            {
+              "id": 7531,
+              "text": {
+                "en-US": "Good"
+              },
+              "alias": "",
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7532,
+              "text": {
+                "en-US": "Average"
+              },
+              "alias": "",
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7533,
+              "text": {
+                "en-US": "Best"
+              },
+              "alias": "",
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7534,
+              "text": {
+                "en-US": "All of the above"
+              },
+              "alias": "",
+              "position": 4,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            }
+          ],
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Vertical",
+          "show_number_labels": false,
+          "include_condition": {
+            "expressions": [],
+            "groups": [
+              {
+                "id": 8992,
+                "expressions": [
+                  {
+                    "id": 8994,
+                    "left_operand": {
+                      "item_id": 6555,
+                      "operand_type": "SurveyItem"
+                    },
+                    "operator": "Answered"
+                  },
+                  {
+                    "id": 8995,
+                    "left_operand": {
+                      "item_id": 6556,
+                      "operand_type": "SurveyItem"
+                    },
+                    "right_operand": {
+                      "item_id": 6556,
+                      "choice_id": 7515,
+                      "answer": "",
+                      "operand_type": "Choice"
+                    },
+                    "operator": "Equal"
+                  },
+                  {
+                    "id": 8996,
+                    "left_operand": {
+                      "profile_key": "Capacity",
+                      "operand_type": "ProfileProperty"
+                    },
+                    "right_operand": {
+                      "value": null,
+                      "operand_type": "String"
+                    },
+                    "operator": "IsNotNull"
+                  },
+                  {
+                    "id": 8997,
+                    "left_operand": {
+                      "profile_key": "Emailcc2",
+                      "operand_type": "ProfileProperty"
+                    },
+                    "right_operand": {
+                      "value": "pintu.behera@nasdaq.com",
+                      "operand_type": "String"
+                    },
+                    "operator": "Equal"
+                  }
+                ],
+                "logical_operator": "AND"
+              }
+            ],
+            "logical_operator": "OR"
+          }
+        },
+        {
+          "id": 6564,
+          "import_id": "6564",
+          "enabled": true,
+          "position": 10,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "Exhibits Test Single Line Question It is mapped with User Profile Property for user - @@6link"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {
+            "en-US": ""
+          },
+          "item_type": "SingleLineText",
+          "answer_format": "None",
+          "custom_format_id": "",
+          "max_length": null,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal"
+        },
+        {
+          "id": 6565,
+          "import_id": "6565",
+          "enabled": true,
+          "position": 11,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "Adding Exhibit as editor text link option (not flyover link)  <a title=\"Global Exchibit\" href=\"https://spindev3321.corpgov.tech/Download?file=TWlncmF0aW9uUXVlc3Rpb25uYWlyZVRlc3RpbmdfNzQxM19aLnBkZg==\" target=\"_blank\" rel=\"noopener\">Global Exhibit File</a>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {
+            "en-US": ""
+          },
+          "item_type": "SingleLineText",
+          "answer_format": "None",
+          "custom_format_id": "",
+          "max_length": null,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal"
+        },
+        {
+          "id": 6566,
+          "import_id": "6566",
+          "enabled": true,
+          "position": 12,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<p>Adding Exhibit with Flyover - <span id=\"54c9b20c-34de-4cdc-8632-fc5f31600fe1\" class=\"tiny-editor-tooltip\" contextmenu=\"\">LinkWithExhibitLink_Link with Exhibit Link</span></p>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {
+            "en-US": ""
+          },
+          "item_type": "SingleLineText",
+          "answer_format": "None",
+          "custom_format_id": "",
+          "max_length": null,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal"
+        }
+      ]
+    },
+    {
+      "id": 1715,
+      "title": "Page 3",
+      "position": 4,
+      "page_type": "ContentPage",
+      "branching_rules": [],
+      "include_condition": {
+        "expressions": [],
+        "groups": [
+          {
+            "id": 9006,
+            "expressions": [
+              {
+                "id": 9008,
+                "left_operand": {
+                  "item_id": 6562,
+                  "operand_type": "SurveyItem"
+                },
+                "operator": "Answered"
+              },
+              {
+                "id": 9009,
+                "left_operand": {
+                  "profile_key": "FullName",
+                  "operand_type": "ProfileProperty"
+                },
+                "right_operand": {
+                  "value": null,
+                  "operand_type": "String"
+                },
+                "operator": "IsNotNull"
+              }
+            ],
+            "logical_operator": "AND"
+          }
+        ],
+        "logical_operator": "OR"
+      },
+      "items": [
+        {
+          "id": 6567,
+          "import_id": "6567",
+          "enabled": true,
+          "position": 1,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<em>Choose the appropriate option for the Development of Students</em>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {},
+          "item_type": "RadioButtons",
+          "choices": [
+            {
+              "id": 7535,
+              "text": {
+                "en-US": "Skill"
+              },
+              "alias": "",
+              "position": 1,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7536,
+              "text": {
+                "en-US": "Hardwork"
+              },
+              "alias": "",
+              "position": 2,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            },
+            {
+              "id": 7537,
+              "text": {
+                "en-US": "Confidence"
+              },
+              "alias": "",
+              "position": 3,
+              "is_default": false,
+              "is_other": false,
+              "points": 0.0,
+              "is_none_of_above": false,
+              "enabled": true
+            }
+          ],
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Vertical",
+          "show_number_labels": false
+        }
+      ]
+    },
+    {
+      "id": 1716,
+      "title": "Page 4",
+      "position": 5,
+      "page_type": "ContentPage",
+      "branching_rules": [],
+      "items": [
+        {
+          "id": 6568,
+          "import_id": "6568",
+          "enabled": true,
+          "position": 1,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<p>Rate the Academic Performance for FY 2023-24 <span id=\"f6864a43-7b9a-4370-9ccf-721023b58017\" class=\"tiny-editor-tooltip\" contextmenu=\"\">Admin_test</span> @@MiddleName</p>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {},
+          "rows": [
+            {
+              "position": 1,
+              "row_type": "Normal",
+              "text": {
+                "en-US": "Service"
+              }
+            },
+            {
+              "position": 2,
+              "row_type": "Normal",
+              "text": {
+                "en-US": "Value"
+              }
+            },
+            {
+              "position": 3,
+              "row_type": "Normal",
+              "text": {
+                "en-US": "Improvement"
+              }
+            }
+          ],
+          "item_type": "Matrix",
+          "columns": [
+            {
+              "position": 1,
+              "column_type": "RowTexts",
+              "require_unique_answers": false
+            },
+            {
+              "position": 2,
+              "column_type": "Question",
+              "require_unique_answers": false,
+              "prototype_item": {
+                "id": 6569,
+                "import_id": "6569",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {
+                  "en-US": "Poor"
+                },
+                "subtext": {
+                  "en-US": ""
+                },
+                "default_text": {},
+                "item_type": "RadioButtons",
+                "choices": [
+                  {
+                    "id": 7538,
+                    "text": {
+                      "en-US": "1"
+                    },
+                    "alias": "",
+                    "position": 1,
+                    "is_default": false,
+                    "is_other": false,
+                    "points": 0.0,
+                    "is_none_of_above": false,
+                    "enabled": true
+                  },
+                  {
+                    "id": 7539,
+                    "text": {
+                      "en-US": "2"
+                    },
+                    "alias": "",
+                    "position": 2,
+                    "is_default": false,
+                    "is_other": false,
+                    "points": 0.0,
+                    "is_none_of_above": false,
+                    "enabled": true
+                  }
+                ],
+                "item_position": "Left",
+                "question_text_position": "Top",
+                "layout": "Horizontal"
+              }
+            },
+            {
+              "position": 3,
+              "column_type": "Question",
+              "require_unique_answers": false,
+              "prototype_item": {
+                "id": 6570,
+                "import_id": "6570",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {
+                  "en-US": "Medium"
+                },
+                "subtext": {
+                  "en-US": ""
+                },
+                "default_text": {},
+                "item_type": "RadioButtons",
+                "choices": [
+                  {
+                    "id": 7540,
+                    "text": {
+                      "en-US": "3"
+                    },
+                    "alias": "",
+                    "position": 1,
+                    "is_default": false,
+                    "is_other": false,
+                    "points": 0.0,
+                    "is_none_of_above": false,
+                    "enabled": true
+                  },
+                  {
+                    "id": 7541,
+                    "text": {
+                      "en-US": "4"
+                    },
+                    "alias": "",
+                    "position": 2,
+                    "is_default": false,
+                    "is_other": false,
+                    "points": 0.0,
+                    "is_none_of_above": false,
+                    "enabled": true
+                  }
+                ],
+                "item_position": "Left",
+                "question_text_position": "Top",
+                "layout": "Horizontal"
+              }
+            },
+            {
+              "position": 4,
+              "column_type": "Question",
+              "require_unique_answers": false,
+              "prototype_item": {
+                "id": 6571,
+                "import_id": "6571",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {
+                  "en-US": "Intermediate"
+                },
+                "subtext": {
+                  "en-US": ""
+                },
+                "default_text": {},
+                "item_type": "RadioButtons",
+                "choices": [
+                  {
+                    "id": 7542,
+                    "text": {
+                      "en-US": "5"
+                    },
+                    "alias": "",
+                    "position": 1,
+                    "is_default": false,
+                    "is_other": false,
+                    "points": 0.0,
+                    "is_none_of_above": false,
+                    "enabled": true
+                  }
+                ],
+                "item_position": "Left",
+                "question_text_position": "Top",
+                "layout": "Horizontal"
+              }
+            },
+            {
+              "position": 5,
+              "column_type": "Question",
+              "require_unique_answers": false,
+              "prototype_item": {
+                "id": 6572,
+                "import_id": "6572",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {
+                  "en-US": "Remark"
+                },
+                "subtext": {
+                  "en-US": ""
+                },
+                "default_text": {
+                  "en-US": ""
+                },
+                "item_type": "SingleLineText",
+                "answer_format": "None",
+                "custom_format_id": "",
+                "max_length": null,
+                "item_position": "Left",
+                "question_text_position": "Top",
+                "layout": "Horizontal"
+              }
+            }
+          ],
+          "elements": [
+            {
+              "row": 1,
+              "column": 1,
+              "item": {
+                "item_type": "Message",
+                "id": 6573,
+                "import_id": "6573",
+                "enabled": true,
+                "position": 0,
+                "is_unlimited_columns": false,
+                "is_unlimited_rows": false,
+                "is_required": false,
+                "is_soft_required": false,
+                "text": {
+                  "en-US": "Service"
+                },
+                "item_position": "Left",
+                "layout": "Horizontal"
+              }
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "item": {
+                "item_type": "Message",
+                "id": 6578,
+                "import_id": "6578",
+                "enabled": true,
+                "position": 0,
+                "is_unlimited_columns": false,
+                "is_unlimited_rows": false,
+                "is_required": false,
+                "is_soft_required": false,
+                "text": {
+                  "en-US": "Value"
+                },
+                "item_position": "Left",
+                "layout": "Horizontal"
+              }
+            },
+            {
+              "row": 3,
+              "column": 1,
+              "item": {
+                "item_type": "Message",
+                "id": 6583,
+                "import_id": "6583",
+                "enabled": true,
+                "position": 0,
+                "is_unlimited_columns": false,
+                "is_unlimited_rows": false,
+                "is_required": false,
+                "is_soft_required": false,
+                "text": {
+                  "en-US": "Improvement"
+                },
+                "item_position": "Left",
+                "layout": "Horizontal"
+              }
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6574,
+                "prototype_item_type": "RadioButtons",
+                "id": 6574,
+                "import_id": "6574",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "choices": []
+              }
+            },
+            {
+              "row": 2,
+              "column": 2,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6579,
+                "prototype_item_type": "RadioButtons",
+                "id": 6579,
+                "import_id": "6579",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "choices": []
+              }
+            },
+            {
+              "row": 3,
+              "column": 2,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6584,
+                "prototype_item_type": "RadioButtons",
+                "id": 6584,
+                "import_id": "6584",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "choices": []
+              }
+            },
+            {
+              "row": 1,
+              "column": 3,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6575,
+                "prototype_item_type": "RadioButtons",
+                "id": 6575,
+                "import_id": "6575",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "choices": []
+              }
+            },
+            {
+              "row": 2,
+              "column": 3,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6580,
+                "prototype_item_type": "RadioButtons",
+                "id": 6580,
+                "import_id": "6580",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "choices": []
+              }
+            },
+            {
+              "row": 3,
+              "column": 3,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6585,
+                "prototype_item_type": "RadioButtons",
+                "id": 6585,
+                "import_id": "6585",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "choices": []
+              }
+            },
+            {
+              "row": 1,
+              "column": 4,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6576,
+                "prototype_item_type": "RadioButtons",
+                "id": 6576,
+                "import_id": "6576",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "choices": []
+              }
+            },
+            {
+              "row": 2,
+              "column": 4,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6581,
+                "prototype_item_type": "RadioButtons",
+                "id": 6581,
+                "import_id": "6581",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "choices": []
+              }
+            },
+            {
+              "row": 3,
+              "column": 4,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6586,
+                "prototype_item_type": "RadioButtons",
+                "id": 6586,
+                "import_id": "6586",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "choices": []
+              }
+            },
+            {
+              "row": 1,
+              "column": 5,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6577,
+                "prototype_item_type": "SingleLineText",
+                "id": 6577,
+                "import_id": "6577",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "answer_format": "0",
+                "custom_format_id": "",
+                "max_length": null,
+                "max_value": "",
+                "min_value": ""
+              }
+            },
+            {
+              "row": 2,
+              "column": 5,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6582,
+                "prototype_item_type": "SingleLineText",
+                "id": 6582,
+                "import_id": "6582",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "answer_format": "0",
+                "custom_format_id": "",
+                "max_length": null,
+                "max_value": "",
+                "min_value": ""
+              }
+            },
+            {
+              "row": 3,
+              "column": 5,
+              "item": {
+                "item_type": "MatrixQuestionColumnElement",
+                "prototype_item_id": 6587,
+                "prototype_item_type": "SingleLineText",
+                "id": 6587,
+                "import_id": "6587",
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {},
+                "subtext": {},
+                "default_text": {},
+                "answer_format": "0",
+                "custom_format_id": "",
+                "max_length": null,
+                "max_value": "",
+                "min_value": ""
+              }
+            }
+          ],
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal",
+          "row_text_align": "Left",
+          "grid_lines": "None"
+        },
+        {
+          "id": 6588,
+          "import_id": "6588",
+          "enabled": true,
+          "position": 2,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "Directorhips - Binded with Matrix Profile Property"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {},
+          "rows": [],
+          "item_type": "Matrix",
+          "is_unlimited_rows": true,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "columns": [
+            {
+              "position": 1,
+              "column_type": "RowTexts",
+              "require_unique_answers": false
+            },
+            {
+              "id": 1187,
+              "position": 2,
+              "column_type": "Question",
+              "require_unique_answers": false,
+              "prototype_item": {
+                "id": 187,
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {
+                  "en-US": "Name of Company or Organization"
+                },
+                "subtext": {},
+                "default_text": {
+                  "en-US": ""
+                },
+                "answer_format": "None",
+                "item_position": "Left",
+                "question_text_position": "Top",
+                "prototype_item_id": 187,
+                "item_type": "SingleLineText",
+                "layout": "Horizontal"
+              }
+            },
+            {
+              "id": 1188,
+              "position": 3,
+              "column_type": "Question",
+              "require_unique_answers": false,
+              "prototype_item": {
+                "id": 188,
+                "enabled": true,
+                "position": 0,
+                "is_required": false,
+                "is_soft_required": false,
+                "question_text": {
+                  "en-US": "Position"
+                },
+                "subtext": {},
+                "default_text": {
+                  "en-US": ""
+                },
+                "answer_format": "None",
+                "item_position": "Left",
+                "question_text_position": "Top",
+                "prototype_item_id": 188,
+                "item_type": "SingleLineText",
+                "layout": "Horizontal"
+              }
+            }
+          ],
+          "elements": [],
+          "row_text_align": "Left",
+          "grid_lines": "None"
+        }
+      ]
+    },
+    {
+      "id": 1717,
+      "title": "Page 5",
+      "position": 6,
+      "page_type": "ContentPage",
+      "branching_rules": [],
+      "items": [
+        {
+          "id": 6589,
+          "import_id": "6589",
+          "enabled": true,
+          "position": 1,
+          "is_required": false,
+          "is_soft_required": false,
+          "question_text": {
+            "en-US": "<em>Upload Academic certificate</em>"
+          },
+          "subtext": {
+            "en-US": "<root />"
+          },
+          "default_text": {},
+          "allowed_file_types": [
+            ".csv",
+            ".doc",
+            ".docx",
+            ".gif",
+            ".jpeg",
+            ".jpg",
+            ".pdf",
+            ".png",
+            ".ppt",
+            ".pptx",
+            ".txt",
+            ".xls",
+            ".xlsx"
+          ],
+          "item_type": "FileUpload",
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal",
+          "include_condition": {
+            "expressions": [],
+            "groups": [
+              {
+                "id": 9004,
+                "expressions": [
+                  {
+                    "id": 10036,
+                    "left_operand": {
+                      "permission_key": "Group",
+                      "operand_type": "Permission"
+                    },
+                    "right_operand": {
+                      "choice_id": 1015,
+                      "item_id": 5841,
+                      "name": "5% Shareholder",
+                      "operand_type": "Choice"
+                    },
+                    "operator": "Equal"
+                  },
+                  {
+                    "id": 10037,
+                    "left_operand": {
+                      "permission_key": "Group",
+                      "operand_type": "Permission"
+                    },
+                    "right_operand": {
+                      "choice_id": 1015,
+                      "item_id": 5843,
+                      "name": "Nominee",
+                      "operand_type": "Choice"
+                    },
+                    "operator": "Equal"
+                  },
+                  {
+                    "id": 10038,
+                    "left_operand": {
+                      "permission_key": "Committee",
+                      "operand_type": "Permission"
+                    },
+                    "right_operand": {
+                      "choice_id": 1015,
+                      "item_id": 5845,
+                      "name": "Audit",
+                      "operand_type": "Choice"
+                    },
+                    "operator": "Equal"
+                  },
+                  {
+                    "id": 10039,
+                    "left_operand": {
+                      "permission_key": "Committee",
+                      "operand_type": "Permission"
+                    },
+                    "right_operand": {
+                      "choice_id": 1015,
+                      "item_id": 5847,
+                      "name": "Compensation",
+                      "operand_type": "Choice"
+                    },
+                    "operator": "Equal"
+                  },
+                  {
+                    "id": 10040,
+                    "left_operand": {
+                      "permission_key": "Committee",
+                      "operand_type": "Permission"
+                    },
+                    "right_operand": {
+                      "choice_id": 1015,
+                      "item_id": 5849,
+                      "name": "NomGov",
+                      "operand_type": "Choice"
+                    },
+                    "operator": "Equal"
+                  }
+                ],
+                "logical_operator": "AND"
+              }
+            ],
+            "logical_operator": "OR"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1718,
+      "title": "Page 6",
+      "position": 7,
+      "page_type": "ContentPage",
+      "branching_rules": [],
+      "items": [
+        {
+          "id": 6590,
+          "import_id": "6590",
+          "enabled": true,
+          "position": 1,
+          "is_required": false,
+          "is_soft_required": false,
+          "subject": {
+            "en-US": "Involvement of Additional Activities in Campus"
+          },
+          "body": {
+            "en-US": "<root />"
+          },
+          "format": "Html",
+          "from": "a2a32@gmail.com",
+          "to": "aimh@gmail.com",
+          "bcc": "glenn@nasdaq.com",
+          "send_once": false,
+          "item_type": "EmailResponse",
+          "include_response_details": false,
+          "show_page_numbers": false,
+          "show_question_numbers": false,
+          "include_message_items": false,
+          "show_hidden_items": false,
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal"
+        }
+      ]
+    },
+    {
+      "id": 1719,
+      "title": "Page 7",
+      "position": 8,
+      "page_type": "ContentPage",
+      "branching_rules": [],
+      "items": []
+    },
+    {
+      "id": 1720,
+      "title": "Page 8",
+      "position": 9,
+      "page_type": "Completion",
+      "branching_rules": [],
+      "items": [
+        {
+          "id": 6591,
+          "import_id": "6591",
+          "enabled": true,
+          "position": 1,
+          "item_type": "Message",
+          "is_unlimited_columns": false,
+          "is_unlimited_rows": false,
+          "is_required": false,
+          "is_soft_required": false,
+          "text": {
+            "en-US": "Thank you for taking the survey."
+          },
+          "item_position": "Left",
+          "question_text_position": "Top",
+          "layout": "Horizontal"
+        }
+      ]
+    }
+  ],
+  "customizable_texts": [],
+  "autocomplete_lists": [],
+  "files": [],
+  "flyovers": [
+    {
+      "flyover_id": 1042,
+      "term": "Admin_test",
+      "definition": "Ignite",
+      "template_id": 0,
+      "flyover_guid": "f6864a43-7b9a-4370-9ccf-721023b58017"
+    },
+    {
+      "flyover_id": 1043,
+      "term": "Link2_Link2 Term",
+      "definition": "Link2 Term Def",
+      "template_id": 0,
+      "flyover_guid": "214a3eb7-d07f-4eda-8c7f-ae7cd6240f19"
+    },
+    {
+      "flyover_id": 1044,
+      "term": "LinkWithExhibitLink_Link with Exhibit Link",
+      "definition": "Link3 with Exhibit Link",
+      "template_id": 0,
+      "flyover_guid": "54c9b20c-34de-4cdc-8632-fc5f31600fe1"
+    }
+  ],
+  "exhibit_folders": [
+    {
+      "id": 33,
+      "folder_guid": "46601a0e-60cf-4e9a-a684-3a0d7109f903",
+      "template_id": 1096,
+      "name": "MigrationStory",
+      "created_at": "2023-11-13T14:02:12.839",
+      "updated_at": "2023-11-13T14:02:12.839",
+      "created_by": "admin",
+      "updated_by": "admin",
+      "is_global_exhibit": true
+    },
+    {
+      "id": 32,
+      "folder_guid": "ed41f409-e54f-434c-a535-e1176585a6b1",
+      "template_id": 1096,
+      "name": "User_Exhibits_30thOct_Migration_-_For_Automation",
+      "created_at": "2023-11-13T14:02:12.839",
+      "updated_at": "2023-11-13T14:02:12.839",
+      "created_by": "admin",
+      "updated_by": "admin",
+      "is_global_exhibit": false
+    }
+  ]
+}
